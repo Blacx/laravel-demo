@@ -11,7 +11,14 @@
 
 <body>
 	<div id="wrapper">
-		@yield('content')
+	    <div class="container">
+        	<div class="page-header">
+              <h1>The Movie App</h1>
+            </div>
+
+		    @yield('content')
+
+        </div>
 	</div>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>

@@ -13,6 +13,8 @@
 
 Route::get( '/', 'HomeController@movie_index' );
 
+Route::get('movie/new', 'HomeController@movie_new');
+Route::post('movie/save', 'HomeController@movie_save');
 Route::get('movie/{id}', 'HomeController@movie_single');
 
 Route::group(array('prefix' => 'api'), function() {

@@ -19,7 +19,7 @@ class MovieSeeder extends Seeder {
 				'imdb'      => 'tt0111161',
 				'trailer_url'   => 'https://www.youtube.com/watch?v=6hB3S9bIaco',
 				'writer_id' => DB::table('people')->where('last_name', 'King')->first()->id,
-				'producer_id'   => DB::table('people')->where('last_name', 'Darabont')->first()->id
+				'director_id'   => DB::table('people')->where('last_name', 'Darabont')->first()->id
 			),
 			array(
 				'title'     => 'The Godfather',
@@ -32,7 +32,7 @@ class MovieSeeder extends Seeder {
 				'imdb'      => 'tt0068646',
 				'trailer_url'   => 'https://www.youtube.com/watch?v=sY1S34973zA',
 				'writer_id' => DB::table('people')->where('last_name', 'Puzo')->first()->id,
-				'producer_id'   => DB::table('people')->where('last_name', 'Ford Coppola')->first()->id
+				'director_id'   => DB::table('people')->where('last_name', 'Ford Coppola')->first()->id
 			),
 			array(
 				'title'     => 'The Dark Knight',
@@ -45,7 +45,7 @@ class MovieSeeder extends Seeder {
 				'imdb'      => 'tt0468569',
 				'trailer_url'   => 'https://www.youtube.com/watch?v=EXeTwQWrcwY',
 				'writer_id' => DB::table('people')->where('last_name', 'Nolan')->where('first_name', 'Jonathan')->first()->id,
-				'producer_id'   => DB::table('people')->where('last_name', 'Nolan')->where('first_name', 'Christopher')->first()->id,
+				'director_id'   => DB::table('people')->where('last_name', 'Nolan')->where('first_name', 'Christopher')->first()->id,
 			),
 			array(
 				'title'     => 'The Lord of the Rings: The Return of the King',
@@ -58,7 +58,7 @@ class MovieSeeder extends Seeder {
 				'imdb'      => 'tt0167260',
 				'trailer_url'   => 'https://www.youtube.com/watch?v=I7YllAOqpF4',
 				'writer_id' => DB::table('people')->where('last_name', 'Tolkien')->first()->id,
-				'producer_id'   => DB::table('people')->where('last_name', 'Jackson')->first()->id,
+				'director_id'   => DB::table('people')->where('last_name', 'Jackson')->first()->id,
 			),
 			array(
 				'title'     => 'Interstellar',
@@ -71,7 +71,7 @@ class MovieSeeder extends Seeder {
 				'imdb'      => 'tt0816692',
 				'trailer_url'   => 'https://www.youtube.com/watch?v=0vxOhd4qlnA',
 				'writer_id' => DB::table('people')->where('last_name', 'Tolkien')->first()->id,
-				'producer_id'   => DB::table('people')->where('last_name', 'Jackson')->first()->id,
+				'director_id'   => DB::table('people')->where('last_name', 'Jackson')->first()->id,
 			),
 		);
 

@@ -17,7 +17,7 @@ class CreateMovieTable extends Migration {
 			$table->increments('id');
 			$table->string('title');
 			$table->string('poster');
-			$table->float('rating');
+			$table->float('rating')->nullable();
 			$table->string('overview')->nullable();
 			$table->date('release_date');
 			$table->string('tag_line')->nullable();
@@ -25,7 +25,7 @@ class CreateMovieTable extends Migration {
 			$table->string('imdb')->nullable();
 			$table->string('trailer_url')->nullable();
 			$table->integer('writer_id');
-			$table->integer('producer_id');
+			$table->integer('director_id');
 		});
 	}
 

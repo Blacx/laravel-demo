@@ -5,9 +5,7 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "4.2.*",
-        "way/generators": "~2.0",
-        "dingo/api": "0.8.*@dev"
+		"laravel/framework": "4.2.*"
 	},
 	"autoload": {
 		"classmap": [

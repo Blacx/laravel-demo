@@ -48,6 +48,16 @@ class PeopleSeeder extends Seeder {
 				'last_name'     => 'Tolkien',
 				'role'          => 'Writer'
 			),
+            array(
+                'first_name'    => 'Jane',
+                'last_name'     => 'Doe',
+                'role'          => 'Writer'
+            ),
+            array(
+                'first_name'    => 'John',
+                'last_name'     => 'Doe',
+                'role'          => 'director'
+            ),
 
 		);
 
