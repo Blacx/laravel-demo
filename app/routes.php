@@ -15,7 +15,11 @@ Route::get( '/', 'HomeController@movie_index' );
 
 Route::get('movie/new', 'HomeController@movie_new');
 Route::post('movie/save', 'HomeController@movie_save');
+Route::post('movie/update', 'HomeController@movie_update');
+Route::post('movie/{id}/destroy', 'HomeController@movie_update');
 Route::get('movie/{id}', 'HomeController@movie_single');
+Route::get('movie/{id}/edit', 'HomeController@movie_edit');
+Route::get('movie/{id}/delete', 'HomeController@movie_delete');
 
 Route::group(array('prefix' => 'api'), function() {
 
